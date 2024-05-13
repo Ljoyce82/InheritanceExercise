@@ -8,12 +8,10 @@ namespace Inheritance
 {
     class Bird : Animal
     {
-        public string Name = "Hawk";
+        public bool canFly { get; set; }
+        public bool hasfeathers { get; set; }
+        public bool canSwim { get; set; }
+        public string species { get; set; }
 
-        public string Movement = "Fly";
-
-        public string Description = "covered in Feathers";
-
-        public string Eats = "Meat";
     }
 }

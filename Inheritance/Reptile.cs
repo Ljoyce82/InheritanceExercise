@@ -8,12 +8,9 @@ namespace Inheritance
 {
     public class Reptile : Animal
     {
-        public string Name = "Lizard";
-
-        public string Movement = "Running on all fours";
-
-        public string Description = "Leathery Skin";
-
-        public string Eats = "Bugs and Fruit";
+        public int hasLegs {  get; set; }
+        public bool hasTail { get; set; }
+        public bool isVenomous { get; set; }
+        public bool canClimb { get; set; }
     }
 }
